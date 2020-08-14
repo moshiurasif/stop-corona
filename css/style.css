@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.container{
+	width: 1140px;
+	/* background: red; */
+	margin: 0 auto;
+}
+
+.col-1{
+	width: 8.33%;
+	float:left;
+}
+.col-2{
+width: 16.66%;
+float:left;
+}
+.col-3{
+width: 25%;
+float:left;
+}
+.col-4{
+width: 33.33%;
+float:left;
+}
+.col-5{width: 41.66%;float:left;}
+.col-6{
+width: 50%;
+float:left;
+}
+.col-7{
+width: 58.33%;
+float:left;
+}
+.col-8{
+width: 66.66%;
+float:left;
+}
+.col-9{
+width: 75%;
+float:left;
+}
+.col-10{
+width: 83.33%;
+float:left;
+}
+.col-11{
+width: 91.66%;
+float:left;
+}
+.col-12{
+width: 100%;
+float:left;
+}
+body{
+	font-family: 'Open Sans', ;
+}
+a{
+	
+text-decoration: none;
+}
+section{
+	float: left;
+	width: 100%;
+}
+.btn{
+	background-color: #1b94be;
+	display: inline-block;
+	padding: 10px 25px;
+	color: #fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	transition: 0.4s linear;
+}
+.btn:hover{
+	background-color: #20e5b0;
+}
+header{
+	background: #1b94be;
+	padding: 20px 0;
+	float: left;
+	width: 100%;
+}
+.logo{
+width: 30%;
+float: left;
+}
+.logo img{
+	width: 50px;
+}
+.menu{
+width: 70%;
+float: left;
+margin-top: 5px;
+}
+.nav-menu{
+float: right;
+}
+.nav-menu .nav-item{
+list-style: none;
+display: inline-block;
+}
+.nav-menu .nav-item .nav-link{
+color: #fff;
+padding: 10px;
+display: inline-block;
+transition: 0.4s linear;
+text-transform: uppercase;
+}
+.nav-menu .nav-item .nav-link:hover{
+	color: #20e5b0;
+}
+.banner{
+background: url(../images/banner.jpg);
+min-height: 600px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.banner-content{position: absolute;top: 45%;}
+.banner-content h1{
+color: #1b94be;
+font-size: 40px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.banner-content p{
+font-size: 14px;
+font-family: sans-serif;
+margin-bottom: 30px;
+}
+.featureOne{
+padding: 50px 0;
+}
+.featureTwo{
+background: #f5f5f5;
+padding: 50px 0;	
+}
+
+h2{
+color: #1b94be;
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+margin-bottom: 25px;
+}
+p{
+margin-bottom: 20px;
+font-size: 18px;
+line-height: 22px;
+}
+.advisor img{
+	width: 500px;
+}
+.green-line{	
+height: 2px;	
+width: 100px;	
+background: #20e5b0;
+margin-bottom: 30px;
+}
+.contact{
+padding: 50px 0;
+}
+.contact h2{
+text-align: center;
+margin-bottom: 20px;
+} 
+.contact .green-line{height: 2px;width: 100px;background: #20e5b0;margin: 0 auto;margin-bottom: 20px;}
+.contact p{		
+text-align: center;
+margin-bottom: 65px;
+font-size: 18px;
+}
+.contact form{
+float: left;
+width: 100%;
+}
+.contact form .form-row{	
+width: 50%;	
+float: left;
+padding: 30px;	
+box-sizing: border-box;
+}
+.contact form .form-row .form-control{	
+font-family: raleway,sans-serif;	
+width: 100%;	
+padding: 20px 0;	
+box-sizing: border-box;	
+border: none;	
+border-bottom: 2px solid #d6d6d6;
+font-size: 18px;	
+margin-bottom: 35px;
+}
+.contact form .btn-submit{
+background-color: #1b94be;
+padding: 10px 25px;
+color: #fff;
+border-radius: 3px;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+border: 1px solid transparent;
+display: block;
+margin: 0 auto;
+transition: 0.4s linear;
+}
+.contact form .btn-submit:hover{
+background: transparent;
+border: 1px solid #000;
+color: #000;
+}
+footer{
+float: left;
+width: 100%;
+background: #1b94be;
+padding: 20px 0;
+}
+footer .social-links{
+width: 30%;
+margin: 0 auto;
+-bottom: 10px;
+}
+footer .social-links li a .fa{	
+font-size: 25px;	
+width: 35px;	
+height: 35px;	
+line-height: 35px;	
+padding: 0 5px;
+}
+footer p{	
+color: #f5f5f5;	
+font-size: 12px;	
+text-align: center;
+}
+.social-links li{	
+list-style: none;	
+display: inline-block;
+}
+.social-links .fa{	
+color: #ccc;	
+font-size: 45px;	
+width: 85px;	
+height: 85px;	
+line-height: 85px;
+}
+.social-links .fa:hover{
+color:#20e5b0;
+}
+.mask{
+text-align: center;
+padding: 80px 0;
+background: url(../images/mask.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+}
+.mask h2{
+
+text-align: center;
+margin-bottom: 10px;
+
+}
+.mask p{
+	color: #000;
+}
+.mask.white-line{
+
+height: 2px;
+
+width: 100px;
+
+background: #20e5b0;
+
+margin: 0 auto;
+
+margin-bottom: 20px;
+}
+
+.mask .btn-mask{
+	
+border: 1px solid #20e5b0;
+transition: 0.4s linear;
+}
+.mask .btn-mask:hover{
+	border: 1px solid #20e5b0;
+	background: #20e5b0;
+}
+
+
